@@ -1,10 +1,60 @@
-<!doctype Html>
- <html>
- <head>
- 	<title> Module 3 | Luis Monteiro</title>
- </head>
-		<body>Hello Coursera!
-	
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module 3 | Luis Monteiro</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+		<a class="navbar-brand navbar-left"><h1 href="index.html" class="navbar-link">Food, LLC</h1></a>
+      	
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+ 		<div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="menu-categories.html">
+                <span class="glyphicon glyphicon-play"></span><br class="hidden-xs"> Chicken</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-pause"></span><br class="hidden-xs"> Beef</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-stop"></span><br class="hidden-xs"> Sushi</a>
+            </li>
+          </ul>
+        </div>
+      </div>     
+    </nav>
+  </header>
+  	<div id="main-content" class "container">
+  		<p class="text-center">Our Menu</p>
 
-		</body>
- </html>
+  		<div class="col-md-12 col-sm12 col-xs-12">
+  			<div id="chicken-tile"><span>Chicken</span>
+  				<p>Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. It's also called placeholder (or filler) text. It's a convenient tool for mock-ups. It helps to outline the visual elements of a document or presentation, eg typography, font, or layout. Lorem ipsum is mostly a part of a Latin text by the classical author and philosopher Cicero.</p>
+  			</div>
+  		</div>
+  	</div>
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
