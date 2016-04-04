@@ -1,60 +1,72 @@
-<!doctype html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Module 3 | Luis Monteiro</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Module 3 Assignment</title>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-  <header>
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
-		<a class="navbar-brand navbar-left"><h1 href="index.html" class="navbar-link">Food, LLC</h1></a>
-      	
-           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
- 		<div id="collapsable-nav" class="collapse navbar-collapse">
-          <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li>
-              <a href="menu-categories.html">
-                <span class="glyphicon glyphicon-play"></span><br class="hidden-xs"> Chicken</a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-pause"></span><br class="hidden-xs"> Beef</a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-stop"></span><br class="hidden-xs"> Sushi</a>
-            </li>
-          </ul>
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="visible-xs navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#menus" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand navbar-left" href="#">Food, LLC</a>
+          </div>
+
+          <div id="menus" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav">
+              <li class="dropdown-item visible-xs text-center">
+                <a href="#chicken">Chicken</a>
+              </li>
+              <li class="dropdown-item visible-xs text-center">
+                <a href="#beef">Beef</a>
+              </li>
+              <li class="dropdown-item visible-xs text-center">
+                <a href="#sushi">Sushi</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>     
-    </nav>
-  </header>
-  	<div id="main-content" class "container">
-  		<p class="text-center">Our Menu</p>
+      </nav>
 
-  		<div class="col-md-12 col-sm12 col-xs-12">
-  			<div id="chicken-tile"><span>Chicken</span>
-  				<p>Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. It's also called placeholder (or filler) text. It's a convenient tool for mock-ups. It helps to outline the visual elements of a document or presentation, eg typography, font, or layout. Lorem ipsum is mostly a part of a Latin text by the classical author and philosopher Cicero.</p>
-  			</div>
-  		</div>
-  	</div>
+      <h1 id="our-menu" class="text-center">Our Menu</h1>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12" id="chicken">
+          <div class="class-with-pad">
+            <h3 class="text-center">Chicken</h3>
+            <br><p>&quot;Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. It's also called placeholder (or filler) text. It's a convenient tool for mock-ups. It helps to outline the visual elements of a document or presentation, eg typography, font, or layout. Lorem ipsum is mostly a part of a Latin text by the classical author and philosopher Cicero.&quot;</p>
+          </div>
+        </div>
 
+        <div class="col-md-4 col-sm-6 col-xs-12" id="beef">
+          <div class="class-with-pad">
+            <h3 class="text-center">Beef</h3>
+            <br><p>&quot;Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. It's also called placeholder (or filler) text. It's a convenient tool for mock-ups. It helps to outline the visual elements of a document or presentation, eg typography, font, or layout. Lorem ipsum is mostly a part of a Latin text by the classical author and philosopher Cicero.&quot;</p>
+ 
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12" id="sushi">
+          <div class="class-with-pad">
+            <h3 class="text-center">Sushi</h3>
+            <br><p>&quot;Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. It's also called placeholder (or filler) text. It's a convenient tool for mock-ups. It helps to outline the visual elements of a document or presentation, eg typography, font, or layout. Lorem ipsum is mostly a part of a Latin text by the classical author and philosopher Cicero.&quot;</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
-</body>
-</html>
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
